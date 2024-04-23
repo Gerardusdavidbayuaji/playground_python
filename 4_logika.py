@@ -101,19 +101,44 @@
 # Latihan soal, buat kode menjadi:
 # 1. ---0+++5---8+++11---
 
-inputUser = float(input("masukan data >0, <5, >8, <11 :"))
+# inputUser = float(input("masukan data >0, <5, >8, <11 :"))
 
-isLebihDariNol = (inputUser >0)
-print("nilai lebih dari 0 adalah:", isLebihDariNol)
+# isLebihDariNol = (inputUser >0)
+# print("nilai lebih dari 0 adalah:", isLebihDariNol)
 
-isKurangDariLima = (inputUser <5)
-print("nilai kurang dari 5 adalah:", isKurangDariLima)
+# isKurangDariLima = (inputUser <5)
+# print("nilai kurang dari 5 adalah:", isKurangDariLima)
 
-isLebihDariLapan = (inputUser >8)
-print("nilai kurang dari 5 adalah:", isLebihDariLapan)
+# isLebihDariLapan = (inputUser >8)
+# print("nilai kurang dari 5 adalah:", isLebihDariLapan)
 
-isKurangDariSebelas = (inputUser <11)
-print("nilai kurang dari 5 adalah:", isKurangDariSebelas)
+# isKurangDariSebelas = (inputUser <11)
+# print("nilai kurang dari 5 adalah:", isKurangDariSebelas)
 
-isCorrect = isLebihDariNol and isKurangDariLima and isLebihDariLapan and isKurangDariSebelas
-print('nilai anda saat ini adalah', isCorrect)
+# isCorrect = isLebihDariNol and isKurangDariLima and isLebihDariLapan and isKurangDariSebelas
+# print('nilai anda saat ini adalah', isCorrect)
+
+# __OPERATOR BITWISE__
+# bitwise > masing masing bit
+# int -> 2 = 00000010/ indeks dari binary (76543210) -> 2^1 =2
+# a = 9
+# print('nilai:', a , 'binary:', format(a, '08b'))
+
+# __OPERATOR ASSIGNMENT__
+# operasi yang dapat dilakukan dengan penyingkatan
+# operasi ditambah dengan assignment
+
+a = 5 #adalah assigment
+print('nilai a =', a)
+
+a += 1 #artinya adalah a = a + 1
+print('nilai a hasil penjumlahan =', a)
+
+a -= 2 #artinya adalah a = a - 2
+print('nilai a hasil pengurangan =', a)
+
+a *= 5 #artinya adalah a = a * 5
+print('nilai a hasil perkalian =', a)
+
+a /= 2 #artinya adalah a = a / 2
+print('nilai a hasil pembagian =', a)
