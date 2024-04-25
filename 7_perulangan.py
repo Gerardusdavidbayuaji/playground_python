@@ -28,14 +28,29 @@
 
 # __CONTINUE, PASS, BREAK__
 
-# 1. pass
+# 1. pass > tidak akan dieksekusi
+
+# angka = 0 
+
+# while angka < 5:
+#     angka += 1
+    
+#     if angka == 3:
+#         pass
+
+#     print(angka)
+
+# 2. continue > akan meloncat ke step selanjutnya
 
 angka = 0 
-
-while angka < 5:
+while angka < 10:
     angka += 1
-    
-    if angka == 3:
-        pass
+    print('heyyy', angka) #aksi 1
 
-    print(angka)
+    if angka == 5:
+        ('hello world')
+        continue #akan membuat loop meloncat ke stap selanjutnya
+
+    print('learning python') #aksi 1
+
+print('program stop')
