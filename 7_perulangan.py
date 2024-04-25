@@ -28,7 +28,7 @@
 
 # __CONTINUE, PASS, BREAK__
 
-# 1. pass > tidak akan dieksekusi
+# # 1. pass > tidak akan dieksekusi
 
 # angka = 0 
 
@@ -40,17 +40,35 @@
 
 #     print(angka)
 
-# 2. continue > akan meloncat ke step selanjutnya
+# # 2. continue > akan meloncat ke step selanjutnya
 
-angka = 0 
-while angka < 10:
-    angka += 1
-    print('heyyy', angka) #aksi 1
+# angka = 0 
+# while angka < 10:
+#     angka += 1
+#     print('heyyy', angka) #aksi 1
 
-    if angka == 5:
-        ('hello world')
-        continue #akan membuat loop meloncat ke stap selanjutnya
+#     if angka == 5:
+#         ('hello world')
+#         continue #akan membuat loop meloncat ke stap selanjutnya
 
-    print('learning python') #aksi 1
+#     print('learning python') #aksi 1
 
-print('program stop')
+# print('program stop')
+
+# 3. break > melakukan stop program, ketika kondisi sudah terpenuhi
+
+# data_input = int(input("masukan data input disini broo:"))
+
+# angka = 0
+
+# while angka < 10:
+#     angka += 1
+#     print(f'ini angka : {angka}')
+
+#     if angka == 5:
+#         print(f'hayyy : {angka}')
+#         break
+
+#     print('hayyy lagii')
+
+# print('cukuppp')
