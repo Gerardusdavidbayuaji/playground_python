@@ -72,3 +72,26 @@
 #     print('hayyy lagii')
 
 # print('cukuppp')
+
+# __LATIHAN MEMBUAT PERULANGAN SEGITIGA__
+
+# menggunakan for
+sisi_segitiga = 10
+
+count = 1
+# [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+for i in range(sisi_segitiga):
+    print('*'*count)
+    count += 1
+
+print('---for---')
+
+count = 1
+for i in range(sisi_segitiga):
+    print('*'*count)
+    count += 1
+
+    if sisi_segitiga > 10:
+        break
+
+print('selesai')
