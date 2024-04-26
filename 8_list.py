@@ -71,7 +71,7 @@ peserta_1 = ['ani', 25, 'perempuan']
 peserta_2 = ['putri', 27, 'perempuan']
 
 list_peserta = [peserta_0, peserta_1, peserta_2]
-
+  
 print(f'{list_peserta}')
 
 for peserta in list_peserta:
