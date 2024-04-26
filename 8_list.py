@@ -34,3 +34,32 @@
 # # cara menggunakan list pake for if
 # list_nilai = [i for i in range(0, 10) if i != 6]
 # print('ini nilai list kedua', list_nilai)
+
+# __MANIPULASI LIST__
+# manipulasi list bisa menggunakan indeks pada item tersebut
+# manipulasi list bisa menentukan dari mulai sampai akhir
+
+# menampilkan data yang dipilih dan menghitung banyak data
+this_list = ['apple', 'banana', 'cherry']
+print(this_list[1])
+print(len(this_list))
+
+# menampilkan data tertentu
+number_list = ['udin', 'ucup', 'otong', 'budi', 'arman']
+print(number_list[2:4])
+
+# mengubah data tertentu
+number_list[1] = 'jimmy'
+print('number list terkini :', number_list)
+
+# menambahkan data pada akhir list
+number_list.append('john')
+print('menambahkan nama pada list :', number_list)
+
+# menambahkan list dengan list
+number_list.extend(number_list)
+print('ini adalah data gabungan :', number_list)
+
+# menghapus data pada list
+number_list.remove('otong')
+print('ini data yang dihapus :', number_list)
