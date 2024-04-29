@@ -40,41 +40,62 @@
 # manipulasi list bisa menentukan dari mulai sampai akhir
 
 # menampilkan data yang dipilih dan menghitung banyak data
-this_list = ['apple', 'banana', 'cherry']
-print(this_list[1])
-print(len(this_list))
+# this_list = ['apple', 'banana', 'cherry']
+# print(this_list[1])
+# print(len(this_list))
 
 # menampilkan data tertentu
-number_list = ['udin', 'ucup', 'otong', 'budi', 'arman']
-print(number_list[2:4])
+# number_list = ['udin', 'ucup', 'otong', 'budi', 'arman']
+# print(number_list[2:4])
 
 # mengubah data tertentu
-number_list[1] = 'jimmy'
-print('number list terkini :', number_list)
+# number_list[1] = 'jimmy'
+# print('number list terkini :', number_list)
 
 # menambahkan data pada akhir list
-number_list.append('john')
-print('menambahkan nama pada list :', number_list)
+# number_list.append('john')
+# print('menambahkan nama pada list :', number_list)
 
 # menambahkan list dengan list
-number_list.extend(number_list)
-print('ini adalah data gabungan :', number_list)
+# number_list.extend(number_list)
+# print('ini adalah data gabungan :', number_list)
 
 # menghapus data pada list
-number_list.remove('otong')
-print('ini data yang dihapus :', number_list)
+# number_list.remove('otong')
+# print('ini data yang dihapus :', number_list)
 
 # __NESTED LIST__
 
-peserta_0 = ['budi', 23, 'laki-laki']
-peserta_1 = ['ani', 25, 'perempuan']
-peserta_2 = ['putri', 27, 'perempuan']
+# peserta_0 = ['budi', 23, 'laki-laki']
+# peserta_1 = ['ani', 25, 'perempuan']
+# peserta_2 = ['putri', 27, 'perempuan']
 
-list_peserta = [peserta_0, peserta_1, peserta_2]
+# list_peserta = [peserta_0, peserta_1, peserta_2]
   
-print(f'{list_peserta}')
+# print(f'{list_peserta}')
 
-for peserta in list_peserta:
-    print(f'nama\t {peserta[0]}')
-    print(f'umur\t {peserta[1]}')
-    print(f'gender\t {peserta[2]}\n')
+# for peserta in list_peserta:
+#     print(f'nama\t {peserta[0]}')
+#     print(f'umur\t {peserta[1]}')
+#     print(f'gender\t {peserta[2]}\n') 
+
+# __LATIHAN LIST__
+
+list_buku = []
+
+while True:
+    judul = input('masukan judul buku :')
+    penulis = input('masukan nama penulis :')
+
+    nama_buku = [judul, penulis]
+    list_buku.append(nama_buku)
+
+    for index, buku in enumerate(list_buku):
+        print(f'{index+1} | {buku[0]} | {buku[1]}')
+
+    isLanjut = input('apakah mau lanjut? (y/n) :')
+
+    if isLanjut == 'n':
+        break
+
+print('selesai')
