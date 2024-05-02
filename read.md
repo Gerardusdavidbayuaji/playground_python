@@ -42,3 +42,6 @@ exaple: uniq_number = {1, 2, 3, 4, 5}
 dictionary:
 diurutkan, dapat diubah dan tidak bisa diduplikat 
 example: person = {‘name’ : ‘jhon’, ‘age’ : 17, ‘gender’}
+
+fungsi: function, method, subrutin/rutin 
+exampel: def nama():
